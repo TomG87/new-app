@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "/number_guess", controller: "examples", action: "guess"
   get "/test" => "examples#test" 
   get "/test2" => "examples#apple"
+  get "/test3" => "examples#baseball"
 end

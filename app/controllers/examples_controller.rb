@@ -11,4 +11,8 @@ class ExamplesController < ApplicationController
   def apple
     render json: {message: "apple"}
   end
+
+  def baseball
+    render json: {message: rand(1..1000)}
+  end
 end
